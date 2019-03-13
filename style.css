@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(20, 20, 20);
+  background-color: #F6F6F6;
+}
+h1, h2 {
+  font-family: font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  color: #565656;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.container {
+  width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(120, 120, 120);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+  margin: 25px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon {
+  font-size: 25px;
+  margin: 3px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
